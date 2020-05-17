@@ -3,7 +3,7 @@
 SCRIPT_DIR=$(dirname "$(realpath "$0")")
 WORKING_DIR=$(pwd)
 
-BASE_URL="http://www.cwi.nl/~boncz/PublicBIbenchmark"
+BASE_URL="https://www.cwi.nl/~boncz/PublicBIbenchmark"
 
 usage() {
 cat <<EOM
