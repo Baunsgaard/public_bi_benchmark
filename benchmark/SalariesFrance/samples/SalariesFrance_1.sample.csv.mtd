@@ -1,0 +1,7 @@
+{
+    "data_type": "frame",  
+    "format": "csv",
+    "sep": "|",
+    "header": false,
+    "na.strings": [ "null", "" ]
+}

@@ -1,13 +1,14 @@
 #!/bin/bash
 
-for d in ./*; do
-	cd $d
+cd benchmark
+for d in *; do
+	cd $d/data
 	for file in ./*.bz2; do
-		echo "$(date) decompressing $file"
+		echo "decompressing $file"
 		bzip2 -dk $file &
 	done
-	cd ../
+	cd ../../
 done
 wait
 
-echo "$(date) done"
+echo "done"
